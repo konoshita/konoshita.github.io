@@ -30,10 +30,10 @@ video {
 }
 
 #home{
-background: url(../images/me.jpg)no-repeat;
+background-image: url(../images/me.jpg);
 background-attachment: fixed;
 background-size: cover;
-background-position: center
+background-position: center;
 }
 #works_page, #works_web,#works_banner{
   background-image: url(../images/back.jpg);
@@ -504,13 +504,13 @@ input{ /* input(ラジオボタン)は表示しません。表示しないので
 .sns {
   display: flex;
   justify-content: center;
-  margin: 1.5em 0;
+  /* margin: 1.5em 0; */
   text-align: center;
 }
 .sns a {
   font-size: 1.8rem;
   padding: 15px;
-  margin: 0 5px;
+  /* margin: 0 5px; */
 }
 
 .address ul {
