@@ -824,7 +824,7 @@ padding-right: 2rem;
   top: 20%;
   animation-delay: 4.5s;
 }
-@media screen and (max-width:600px) { /*sp｜600~*/
+@media screen and (max-width:767px) { /*sp｜600~*/
   #wrap h1,p{
     margin: 1em 0;
   }
