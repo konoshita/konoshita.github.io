@@ -825,6 +825,12 @@ padding-right: 2rem;
   animation-delay: 4.5s;
 }
 @media screen and (max-width:767px) { /*sp｜600~*/
+  #home{
+    background-image: url(../images/me_sp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
   #wrap h1,p{
     margin: 1em 0;
   }
