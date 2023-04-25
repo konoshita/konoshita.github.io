@@ -30,8 +30,7 @@ video {
 }
 
 #home{
-  background: url(../images/me.jpg)no-repeat left top;
-  background-size: 100% auto ;
+background: url(../images/me.jpg)no-repeat;
 background-attachment: fixed;
 background-size: cover;
 background-position: center
@@ -196,7 +195,11 @@ header p {
   background-color: #ffffff;
   color: #333333;
 }
-
+.box-003 a{
+display: inline;
+font-size: 2rem;
+padding-right: 1rem;
+}
 /* cube */
 input{ /* input(ラジオボタン)は表示しません。表示しないのであって動作はしています */
   display: none;
@@ -821,7 +824,19 @@ padding-right: 2rem;
   top: 20%;
   animation-delay: 4.5s;
 }
-@media screen and (max-width:600px) { /*タブレット｜600~1024*/
+@media screen and (max-width:600px) { /*sp｜600~*/
+  #wrap h1,p{
+    margin: 1em 0;
+  }
+  .anime {
+    padding-top: 1em;
+    width: 100%;
+    max-width: 1000px; /*今回は画像幅750pxが最大で書き出したので劣化を防ぐ*/
+    height: auto;
+    padding-bottom: 10rem;
+    margin: auto;
+    display: block;
+  }
   @keyframes ripples_anim {
     0% {
     opacity: 1;
@@ -833,6 +848,7 @@ padding-right: 2rem;
     height: 100px;
     opacity: 0;
   }
+
   .ripples div:nth-of-type(1) {
     left: 0;
     top: 0;
